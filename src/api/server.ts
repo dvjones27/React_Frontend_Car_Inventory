@@ -9,7 +9,7 @@ const token = '27f4d250d324ba15d3f9e28b7d0998ef80954c8a63bdcde0'
 
 export const server_calls = {
     get: async () => {
-        const response = await fetch(`https://flask-7-2-backend.onrender.com/api/cars`,
+        const response = await fetch(`https://react-backend-inventory.onrender.com/api/cars`,
         // change url to my url once set up
         {
             method: 'GET',
@@ -28,7 +28,7 @@ export const server_calls = {
     },
 
     create: async (data: any = {}) => {
-        const response = await fetch(`https://flask-7-2-backend.onrender.com/api/cars`,
+        const response = await fetch(`https://react-backend-inventory.onrender.com/api/cars`,
         {
             method: "POST",
             headers: {
@@ -47,7 +47,7 @@ export const server_calls = {
     },
 
     update: async (id:string, data: any = {}) => {
-        const response = await fetch(`https://flask-7-2-backend.onrender.com/api/cars/${id}`,
+        const response = await fetch(`https://react-backend-inventory.onrender.com/api/cars/${id}`,
         {
             method: "POST",
             headers: {
@@ -66,7 +66,7 @@ export const server_calls = {
     },
 
     delete: async (id:string) => {
-        const response = await fetch(`https://flask-7-2-backend.onrender.com/api/cars/${id}`,
+        const response = await fetch(`https://react-backend-inventory.onrender.com/api/cars/${id}`,
         {
             method: "DELETE",
             headers: {

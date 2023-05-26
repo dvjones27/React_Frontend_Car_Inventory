@@ -60,7 +60,8 @@ const CarInfo = (props: CarInfoProps) => {
         </div>
         <div className="flex p-1">
           <Button
-            className="flex justify-items-center items-center m-2 bg-slate-500 p-2 rounded hover:bg-slate-700 text-white"
+            className="flex justify-start m-3 bg-slate-300 p-2 rounded hover:bg-slate-800 text-white"
+            
           >
             Submit
           </Button>
